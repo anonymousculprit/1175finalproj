@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+[RequireComponent(typeof(Rigidbody2D), typeof(CircleCollider2D))]
 public class Bullet : MonoBehaviour
 {
     GameObject target;
@@ -41,6 +42,5 @@ public class Bullet : MonoBehaviour
     {
         if (null != collision.GetComponent<JumpingEnemy>())
             gameObject.SetActive(false);
-
     }
 }

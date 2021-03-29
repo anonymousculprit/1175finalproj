@@ -14,6 +14,7 @@ public class PlayerController : MonoBehaviour
     [Header("Jump Variables")]
     public float maxJump;
     public float jumpBoost;
+    public int maxExtraJumps;
 
     [Header("Ground State Variables")]
     [SerializeField] GroundStatePair[] gStateSettings;
@@ -72,7 +73,7 @@ public class PlayerController : MonoBehaviour
         gc = new GroundCheck();
 
         move.OnInit(maxSpeed, accel, rb);
-        jump.OnInit(maxJump, jumpBoost, rb, false);
+        jump.OnInit(maxJump, jumpBoost, rb, false, maxExtraJumps);
         gc.OnInit(CalculateFeet());
     }
 

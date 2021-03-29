@@ -16,3 +16,10 @@ public enum GroundState
     GROUND,
     AIR
 }
+
+public enum CollectableTypes
+{
+    NULL,
+    ENERGY,
+    LIFE,
+}

@@ -13,12 +13,23 @@ public class ObjectPool : MonoBehaviour
         InstantiateObjects();
     }
 
+    public int GetActiveCount()
+    {
+        int num = 0;
+
+        for (int i = 0; i < objList.Count; i++)
+            if (objList[i].activeInHierarchy)
+                num++;
+
+        return num;
+    }
+
     public GameObject GetObject()
     {
         GameObject o = TryGetObject();
 
         if (o != null)
-            return GetObject();
+            return o;
         else
             InstantiateObjects();
         return GetObject();
