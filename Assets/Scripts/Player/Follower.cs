@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Follower : MonoBehaviour
+public class Follower : MonoBehaviour, IInit
 {
     [Header("Bullet Settings")]
     public int maxBullets;
@@ -26,8 +26,8 @@ public class Follower : MonoBehaviour
 
     private void Start()
     {
-        GetComponents();
-        InitializeBehaviours();
+        GrabComponents();
+        InitBehaviours();
     }
 
     public void Update()
@@ -44,14 +44,14 @@ public class Follower : MonoBehaviour
         force = Vector3.zero;
     }
 
-    void GetComponents()
+    public void GrabComponents()
     {
         rb = GetComponent<Rigidbody2D>();
         col = GetComponent<CircleCollider2D>();
         target = FindObjectOfType<PlayerController>().gameObject;
     }
 
-    void InitializeBehaviours()
+    public void InitBehaviours()
     {
         Float = new Float();
         followTarget = new FollowTarget();

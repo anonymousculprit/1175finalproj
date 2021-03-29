@@ -342,13 +342,20 @@ MonoBehaviour:
   maxJump: 0.1
   jumpBoost: 600
   maxExtraJumps: 1
-  gStateSettings:
+  groundStateSettings:
   - state: 0
-    control: 0
+    control: 1
   - state: 1
     control: 1
   - state: 2
+    control: 0.25
+  grabStateSettings:
+  - state: 0
     control: 1
+    maxSpeed: 5
+  - state: 1
+    control: 0.25
+    maxSpeed: 1
 --- !u!95 &434862360
 Animator:
   serializedVersion: 3
@@ -937,7 +944,7 @@ GameObject:
   - component: {fileID: 947337255}
   m_Layer: 0
   m_Name: Box
-  m_TagString: Untagged
+  m_TagString: Grabbable
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1051,7 +1058,7 @@ Rigidbody2D:
   m_GravityScale: 1
   m_Material: {fileID: 0}
   m_Interpolate: 0
-  m_SleepingMode: 1
+  m_SleepingMode: 0
   m_CollisionDetection: 0
   m_Constraints: 0
 --- !u!1 &1048048574
@@ -1581,6 +1588,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2081448539}
   - component: {fileID: 2081448540}
+  - component: {fileID: 2081448541}
   m_Layer: 0
   m_Name: Sensor
   m_TagString: Untagged
@@ -1618,3 +1626,15 @@ CircleCollider2D:
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Radius: 0.15
+--- !u!114 &2081448541
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2081448538}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a75ef1e9a1815ee47a5762d75bf2e9e6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

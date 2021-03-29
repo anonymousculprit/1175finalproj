@@ -46,7 +46,7 @@ public class JumpingEnemy : Enemy
 
     private void Update()
     {
-        if (move != null) move.RunUpdate(ref force, isMoving, 1);
+        if (move != null) move.RunUpdate(ref force, isMoving, 1, maxSpeed);
         if (jump != null) jump.RunUpdate(ref force, isJumping, gState);
         if (gc != null) gc.RunUpdate(ref gState, transform.position);
     }

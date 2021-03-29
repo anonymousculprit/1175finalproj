@@ -17,6 +17,12 @@ public enum GroundState
     AIR
 }
 
+public enum GrabState
+{
+    NULL,
+    GRAB
+}
+
 public enum CollectableTypes
 {
     NULL,

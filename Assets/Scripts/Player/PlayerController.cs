@@ -5,7 +5,7 @@ using UnityEngine;
 
 [RequireComponent(typeof(Rigidbody2D), typeof(CapsuleCollider2D), typeof(SpriteRenderer))]
 [RequireComponent(typeof(Animator))]
-public class PlayerController : MonoBehaviour
+public class PlayerController : MonoBehaviour, IInit
 {
     [Header("Move Variables")]
     public float maxSpeed;
@@ -16,10 +16,14 @@ public class PlayerController : MonoBehaviour
     public float jumpBoost;
     public int maxExtraJumps;
 
-    [Header("Ground State Variables")]
-    [SerializeField] GroundStatePair[] gStateSettings;
+    [Header("State Variables")]
+    [SerializeField] GroundStatePair[] groundStateSettings;
+    [SerializeField] GrabStatePair[] grabStateSettings;
 
     GroundState gState = GroundState.NULL;
+    GrabState pState = GrabState.NULL;
+
+    float control = 1f;
 
     // components
     Rigidbody2D rb;
@@ -31,6 +35,7 @@ public class PlayerController : MonoBehaviour
     Move move;
     Jump jump;
     GroundCheck gc;
+    Sensor sensor;
     /* - Animator
      * - WallJump
      * - Following Object
@@ -47,26 +52,61 @@ public class PlayerController : MonoBehaviour
 
     private void Update()
     {
-        move.RunUpdate(ref force, Input.GetAxisRaw("Horizontal"), GetControl(gState));
+        control = GetControl();
+        maxSpeed = GetMaxSpeed();
+
+        move.RunUpdate(ref force, Input.GetAxisRaw("Horizontal"), control, maxSpeed);
         jump.RunUpdate(ref force, Input.GetAxisRaw("Jump"), gState);
         gc.RunUpdate(ref gState, transform.position);
+        sensor.RunUpdate(Input.GetAxisRaw("Horizontal"), Input.GetAxisRaw("Fire2"), ref pState);
     }
 
     private void FixedUpdate()
     {
+        sensor.RunFixedUpdate(Input.GetAxisRaw("Horizontal"), pState, force);
+
         rb.AddForce(force);
         force = Vector3.zero;
     }
 
-    void GrabComponents()
+    Vector3 CalculateFeet() => col.size / 2;
+    float GetControl()
+    {
+        float c = 0f;
+
+        for (int i = 0; i < groundStateSettings.Length; i++)
+            if (groundStateSettings[i].state == gState)
+                c = groundStateSettings[i].control;
+
+        for (int i = 0; i < grabStateSettings.Length; i++)
+            if (grabStateSettings[i].state == pState)
+                if (grabStateSettings[i].control < c)
+                    c = grabStateSettings[i].control;
+
+        return c;
+    }
+
+    float GetMaxSpeed()
+    {
+        float s = 0f;
+
+        for (int i = 0; i < grabStateSettings.Length; i++)
+            if (grabStateSettings[i].state == pState)
+                s = grabStateSettings[i].maxSpeed;
+
+        return s;
+    }
+
+    public void GrabComponents()
     {
         rb = GetComponent<Rigidbody2D>();
         col = GetComponent<CapsuleCollider2D>();
         spr = GetComponent<SpriteRenderer>();
         anim = GetComponent<Animator>();
+        sensor = transform.parent.GetComponentInChildren<Sensor>();
     }
 
-    void InitBehaviours() // see if we can genericize this in the future
+    public void InitBehaviours()
     {
         move = new Move();
         jump = new Jump();
@@ -77,19 +117,17 @@ public class PlayerController : MonoBehaviour
         gc.OnInit(CalculateFeet());
     }
 
-    Vector3 CalculateFeet() => col.size / 2;
-    float GetControl(GroundState gState)
-    {
-        for (int i = 0; i < gStateSettings.Length; i++)
-            if (gStateSettings[i].state == gState)
-                return gStateSettings[i].control;
-        return 0;
-    }
-
     [Serializable]
     public struct GroundStatePair
     {
         public GroundState state;
         public float control;
+    }
+
+    [Serializable]
+    public struct GrabStatePair
+    {
+        public GrabState state;
+        public float control, maxSpeed;
     }
 }

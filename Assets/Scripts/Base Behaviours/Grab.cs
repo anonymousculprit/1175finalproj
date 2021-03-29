@@ -2,17 +2,36 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Grab : MonoBehaviour
+// divide grab to push/pull behaviours?
+public class Grab
 {
-    // Start is called before the first frame update
-    void Start()
+    public void RunUpdate(ref Collider2D col, float control, ref GrabState state)
     {
-        
+        if (col == null)
+        {
+            state = GrabState.NULL;
+            return;
+        }
+
+        if (col.tag == "Grabbable" && control != 0)
+        {
+            state = GrabState.GRAB;
+        }
+        else
+        {
+            col.attachedRigidbody.AddForce(-col.attachedRigidbody.velocity);
+            state = GrabState.NULL;
+        }
     }
 
-    // Update is called once per frame
-    void Update()
+    public void RunFixedUpdate(ref Collider2D col, float hControl, Vector3 force, GrabState state)
     {
-        
+        if (col == null)
+            return;
+
+        if (state == GrabState.GRAB && hControl != 0)
+        {
+            col.attachedRigidbody.AddForce(force);
+        }
     }
 }
