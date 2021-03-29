@@ -30,7 +30,8 @@ public class PlayerController : MonoBehaviour, IInit
     CapsuleCollider2D col;
     SpriteRenderer spr;
     Animator anim;
-    public Follower follower;
+
+    [HideInInspector] public Follower follower;
 
     // behaviours
     Move move;

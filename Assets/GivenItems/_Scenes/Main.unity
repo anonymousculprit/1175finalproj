@@ -282,11 +282,11 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 259103402}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: -10}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: 0, y: 1.5, z: -10}
+  m_LocalScale: {x: 2, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 0
+  m_Father: {fileID: 434862358}
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &434862357
 GameObject:
@@ -322,6 +322,7 @@ Transform:
   m_Children:
   - {fileID: 2009601271}
   - {fileID: 2081448539}
+  - {fileID: 259103405}
   m_Father: {fileID: 945162637}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -354,8 +355,9 @@ MonoBehaviour:
     control: 1
     maxSpeed: 5
   - state: 1
-    control: 0.25
+    control: 0.7
     maxSpeed: 1
+  follower: {fileID: 0}
 --- !u!95 &434862360
 Animator:
   serializedVersion: 3
@@ -928,7 +930,7 @@ Transform:
   - {fileID: 1147896180}
   - {fileID: 1048048575}
   m_Father: {fileID: 0}
-  m_RootOrder: 2
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &947337253
 GameObject:
@@ -1410,7 +1412,7 @@ Transform:
   m_Children:
   - {fileID: 1552306106}
   m_Father: {fileID: 0}
-  m_RootOrder: 1
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1727340746
 GameObject:
@@ -1517,6 +1519,7 @@ MonoBehaviour:
   distance: 1
   speed: 1000
   maxDistance: 5
+  target: {fileID: 0}
 --- !u!850595691 &2047332648
 LightingSettings:
   m_ObjectHideFlags: 0

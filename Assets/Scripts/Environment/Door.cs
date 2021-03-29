@@ -6,17 +6,46 @@ public class Door : MonoBehaviour, IInit
 {
     [Header("Door")]
     public KeyTypes keyType;
+    public float range;
+    
+    bool opening = false;
 
     CapsuleCollider2D col;
+    Follower follower;
+
+    void Start()
+    {
+        GrabComponents();
+    }
 
     public void GrabComponents()
     {
-        throw new System.NotImplementedException();
+        col = GetComponent<CapsuleCollider2D>();
     }
 
     public void InitBehaviours()
     {
-        throw new System.NotImplementedException();
+
+    }
+
+    public void Update()
+    {
+        Vector3 diff = transform.position - follower.gameObject.transform.position;
+
+        if (diff.magnitude > range || opening)
+            return;
+
+        OpenDoor();
+    }
+
+    void OpenDoor()
+    {
+        opening = true;
+        // open door
+        // when finished
+        Blackboard.RemoveKey(keyType);
+        col.enabled = false;
+        enabled = false;
     }
 
     private void OnTriggerEnter2D(Collider2D col)
@@ -28,8 +57,20 @@ public class Door : MonoBehaviour, IInit
 
         if (Blackboard.HasKey(keyType))
         {
-            p.follower.target = gameObject;
+            follower = p.follower;
+            follower.target = gameObject;
         }
+    }
+
+    private void OnTriggerExit2D(Collider2D col)
+    {
+        PlayerController p = col.GetComponent<PlayerController>();
+
+        if (p == null)
+            return;
+
+        follower.ResetTarget();
+        follower = null;
     }
 
 }

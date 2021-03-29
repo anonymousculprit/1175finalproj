@@ -13,7 +13,8 @@ public class Follower : MonoBehaviour, IInit
     public float distance;
     public float speed, maxDistance;
 
-    public GameObject target;
+    [HideInInspector] public GameObject target;
+    GameObject player;
     Rigidbody2D rb;
     CircleCollider2D col;
 
@@ -48,7 +49,8 @@ public class Follower : MonoBehaviour, IInit
     {
         rb = GetComponent<Rigidbody2D>();
         col = GetComponent<CircleCollider2D>();
-        target = FindObjectOfType<PlayerController>().gameObject;
+        player = FindObjectOfType<PlayerController>().gameObject;
+        target = player;
     }
 
     public void InitBehaviours()
@@ -61,6 +63,8 @@ public class Follower : MonoBehaviour, IInit
         followTarget.OnInit(speed, distance, maxDistance, rb);
         fireBullet.OnInit(maxBullets, firingCD, objPool);
     }
+
+    public void ResetTarget() => target = player;
 
     //private void OnDrawGizmos()
     //{
