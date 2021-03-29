@@ -13,9 +13,9 @@ public class Follower : MonoBehaviour, IInit
     public float distance;
     public float speed, maxDistance;
 
+    public GameObject target;
     Rigidbody2D rb;
     CircleCollider2D col;
-    GameObject target;
 
     // Behaviours
     Float Float;

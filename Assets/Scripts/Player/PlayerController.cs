@@ -30,6 +30,7 @@ public class PlayerController : MonoBehaviour, IInit
     CapsuleCollider2D col;
     SpriteRenderer spr;
     Animator anim;
+    public Follower follower;
 
     // behaviours
     Move move;
@@ -104,6 +105,7 @@ public class PlayerController : MonoBehaviour, IInit
         spr = GetComponent<SpriteRenderer>();
         anim = GetComponent<Animator>();
         sensor = transform.parent.GetComponentInChildren<Sensor>();
+        follower = GetComponentInChildren<Follower>();
     }
 
     public void InitBehaviours()

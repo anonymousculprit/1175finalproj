@@ -29,3 +29,9 @@ public enum CollectableTypes
     ENERGY,
     LIFE,
 }
+
+public enum KeyTypes
+{
+    KEY1,
+    KEY2
+}

@@ -17,7 +17,7 @@ public class Grab
         {
             state = GrabState.GRAB;
         }
-        else
+        if (col.tag == "Grabbable" && control == 0)
         {
             col.attachedRigidbody.AddForce(-col.attachedRigidbody.velocity);
             state = GrabState.NULL;
