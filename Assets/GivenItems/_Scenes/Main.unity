@@ -900,6 +900,8 @@ MonoBehaviour:
   minTime: 1
   maxTime: 3
   behaviours: 01000000020000000300000000000000
+  hp: 0
+  dmg: 0
   maxSpeed: 3
   accel: 300
   maxJump: 0.25
@@ -1441,6 +1443,8 @@ MonoBehaviour:
   minTime: 1
   maxTime: 3
   behaviours: 0000000001000000
+  hp: 3
+  dmg: 1
   maxSpeed: 3
   accel: 300
   maxJump: 0

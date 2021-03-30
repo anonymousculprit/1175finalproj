@@ -4,8 +4,12 @@ using UnityEngine;
 
 [RequireComponent(typeof(Rigidbody2D), typeof(CapsuleCollider2D), typeof(SpriteRenderer))]
 [RequireComponent(typeof(Animator))]
-public class JumpingEnemy : Enemy
+public class JumpingEnemy : Enemy, IDamagable
 {
+    [Header("Stats")]
+    public int hp;
+    public int dmg;
+
     [Header("Move Variables")]
     public float maxSpeed;
     public float accel;
@@ -107,6 +111,28 @@ public class JumpingEnemy : Enemy
             default: break;
         }
         return Random.Range(minTime, maxTime);
+    }
+
+    private void OnCollisionEnter2D(Collision2D col)
+    {
+        PlayerController p = col.gameObject.GetComponent<PlayerController>();
+        if (p != null) p.Damage(dmg);
+    }
+
+    public void Damage(int dmg)
+    {
+        hp -= dmg;
+        CheckForDeath();
+    }
+
+    public void CheckForDeath()
+    {
+        if (hp > 0)
+            return;
+
+        Debug.Log("im dead!");
+        StopAllCoroutines();
+        gameObject.SetActive(false);
     }
 
     //private void OnDrawGizmos()

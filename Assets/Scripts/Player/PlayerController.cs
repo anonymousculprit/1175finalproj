@@ -5,8 +5,11 @@ using UnityEngine;
 
 [RequireComponent(typeof(Rigidbody2D), typeof(CapsuleCollider2D), typeof(SpriteRenderer))]
 [RequireComponent(typeof(Animator))]
-public class PlayerController : MonoBehaviour, IInit
+public class PlayerController : MonoBehaviour, IInit, IDamagable
 {
+    [Header("Stats")]
+    public int hp;
+
     [Header("Move Variables")]
     public float maxSpeed;
     public float accel;
@@ -118,6 +121,18 @@ public class PlayerController : MonoBehaviour, IInit
         move.OnInit(maxSpeed, accel, rb);
         jump.OnInit(maxJump, jumpBoost, rb, false, maxExtraJumps);
         gc.OnInit(CalculateFeet());
+    }
+
+    public void Damage(int dmg)
+    {
+        hp -= dmg;
+        CheckForDeath();
+    }
+
+    public void CheckForDeath()
+    {
+        if (hp > 0)
+            return;
     }
 
     [Serializable]

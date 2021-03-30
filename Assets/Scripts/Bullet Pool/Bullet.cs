@@ -5,6 +5,8 @@ using UnityEngine;
 [RequireComponent(typeof(Rigidbody2D), typeof(CircleCollider2D))]
 public class Bullet : MonoBehaviour
 {
+    public int dmg = 1;
+
     GameObject target;
     Rigidbody2D rb;
 
@@ -40,7 +42,12 @@ public class Bullet : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if (null != collision.GetComponent<JumpingEnemy>())
+        JumpingEnemy t = collision.GetComponent<JumpingEnemy>();
+
+        if (t != null)
+        {
+            t.Damage(dmg);
             gameObject.SetActive(false);
+        }
     }
 }
