@@ -28,6 +28,7 @@ public enum CollectableTypes
     NULL,
     ENERGY,
     LIFE,
+    KEY,
 }
 
 public enum KeyTypes

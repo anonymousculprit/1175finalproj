@@ -16,4 +16,5 @@ public static class Blackboard
     }
 
     public static void RemoveKey(KeyTypes type) => keys.Remove(type);
+    public static void SetKey(KeyTypes type) => keys.Add(type);
 }

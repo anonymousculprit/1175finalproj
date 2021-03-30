@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+[RequireComponent(typeof(SpriteRenderer), typeof(CapsuleCollider2D))]
 public class Door : MonoBehaviour, IInit
 {
     [Header("Door")]
@@ -9,8 +10,11 @@ public class Door : MonoBehaviour, IInit
     public float range;
     
     bool opening = false;
+    bool hasKey = false;
 
-    CapsuleCollider2D col;
+    CapsuleCollider2D sensorCol;
+    EdgeCollider2D doorCol;
+    SpriteRenderer spr;
     Follower follower;
 
     void Start()
@@ -20,16 +24,16 @@ public class Door : MonoBehaviour, IInit
 
     public void GrabComponents()
     {
-        col = GetComponent<CapsuleCollider2D>();
-    }
-
-    public void InitBehaviours()
-    {
-
+        sensorCol = GetComponent<CapsuleCollider2D>();
+        doorCol = GetComponent<EdgeCollider2D>();
+        spr = GetComponent<SpriteRenderer>();
     }
 
     public void Update()
     {
+        if (follower == null)
+            return;
+
         Vector3 diff = transform.position - follower.gameObject.transform.position;
 
         if (diff.magnitude > range || opening)
@@ -40,16 +44,24 @@ public class Door : MonoBehaviour, IInit
 
     void OpenDoor()
     {
+        if (!hasKey)
+            return;
+
+        follower.ResetTarget();
         opening = true;
+        spr.color = new Color(0.1f,0.1f,0.1f,0.1f);
         // open door
         // when finished
         Blackboard.RemoveKey(keyType);
-        col.enabled = false;
-        enabled = false;
+        sensorCol.enabled = false;
+        doorCol.enabled = false;
     }
 
     private void OnTriggerEnter2D(Collider2D col)
     {
+        if (opening)
+            return;
+
         PlayerController p = col.GetComponent<PlayerController>();
 
         if (p == null)
@@ -57,6 +69,7 @@ public class Door : MonoBehaviour, IInit
 
         if (Blackboard.HasKey(keyType))
         {
+            hasKey = true;
             follower = p.follower;
             follower.target = gameObject;
         }
@@ -69,8 +82,14 @@ public class Door : MonoBehaviour, IInit
         if (p == null)
             return;
 
+        if (follower == null)
+            return;
+
         follower.ResetTarget();
         follower = null;
+        hasKey = false;
+        opening = false;
     }
 
+    public void InitBehaviours() { }
 }

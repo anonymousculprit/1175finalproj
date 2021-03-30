@@ -5,14 +5,17 @@ using UnityEngine;
 public class FollowTarget
 {
     Rigidbody2D rb;
-    float speed, wSpeed, distance, maxDistance;
+    PlayerController player;
+    float speed, wSpeed, distance, maxDistance, maxSpeed;
 
-    public void OnInit(float _speed, float _distance, float _maxDistance, Rigidbody2D _rb)
+    public void OnInit(float _speed, float _distance, float _maxDistance, float _maxSpeed, Rigidbody2D _rb, PlayerController _player)
     {
         speed = _speed;
         distance = _distance;
+        maxSpeed = _maxSpeed;
         maxDistance = _maxDistance;
         rb = _rb;
+        player = _player;
         wSpeed = speed;
     }
 
@@ -24,6 +27,9 @@ public class FollowTarget
             wSpeed = speed * Mathf.Pow((diff.magnitude / maxDistance), maxDistance);
         if (diff.magnitude < distance)
             wSpeed = speed;
+
+        if (wSpeed > maxSpeed || target != player.gameObject)
+            wSpeed = maxSpeed;
 
         if (Mathf.Abs(diff.x) > 1)
         {
@@ -38,4 +44,6 @@ public class FollowTarget
                                 * rb.mass * Time.deltaTime;
         }
     }
+
+    public void Stop() => rb.AddForce(new Vector3(-rb.velocity.x, 0, 0));
 }
