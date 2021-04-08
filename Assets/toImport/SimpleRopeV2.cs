@@ -20,11 +20,11 @@ public class SimpleRopeV2 : MonoBehaviour
 
         // This is how long our sprite link is
         // Is half because it is from the center of the sprite to the bottom 
-        var OffsetForJoinPlacement = m_LinkPrefab.GetComponent<SpriteRenderer>().size.y/2;
+        var OffsetForJoinPlacement = m_LinkPrefab.GetComponentInChildren<SpriteRenderer>().size.y/2;
         OffsetForJoinPlacement -= OffsetForJoinPlacement * m_OverlapPercentage;
 
         // Initial Position
-        var SpriteRecomputedHeight = m_LinkPrefab.GetComponent<SpriteRenderer>().bounds.size.y;
+        var SpriteRecomputedHeight = m_LinkPrefab.GetComponentInChildren<SpriteRenderer>().bounds.size.y;
         SpriteRecomputedHeight -= (SpriteRecomputedHeight / 2.0f) * m_OverlapPercentage;
 
         // Determine how many links I need to add

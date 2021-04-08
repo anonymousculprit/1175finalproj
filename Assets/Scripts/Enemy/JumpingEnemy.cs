@@ -4,11 +4,12 @@ using UnityEngine;
 
 [RequireComponent(typeof(Rigidbody2D), typeof(CapsuleCollider2D), typeof(SpriteRenderer))]
 [RequireComponent(typeof(Animator))]
-public class JumpingEnemy : Enemy, IDamagable
+public class JumpingEnemy : EnemyBehaviour, IDamagable
 {
     [Header("Stats")]
     public int hp;
     public int dmg;
+    public bool damageOnCollision;
 
     [Header("Move Variables")]
     public float maxSpeed;
@@ -33,6 +34,7 @@ public class JumpingEnemy : Enemy, IDamagable
     Move move;
     Jump jump;
     GroundCheck gc;
+    DamageOnCollision dmgOnCol;
     /* - Animator
      * - WallJump
      * - Following Object
@@ -45,7 +47,7 @@ public class JumpingEnemy : Enemy, IDamagable
     {
         GrabComponents();
         InitBehaviours();
-        StartCoroutine(EnemyBehaviour());
+        StartCoroutine(GetRandomBehaviour());
     }
 
     private void Update()
@@ -83,14 +85,22 @@ public class JumpingEnemy : Enemy, IDamagable
                     jump = new Jump(); jump.OnInit(maxJump, jumpBoost, rb, true); break;
                 default: break;
             }
+
+        if (damageOnCollision)
+        {
+            dmgOnCol = new DamageOnCollision();
+            dmgOnCol.OnInit(FindObjectOfType<PlayerController>().GetComponent<PlayerController>(), dmg);
+        }
     }
 
     Vector3 CalculateFeet() => (col.size / 2) * transform.localScale.y;
 
-    protected override IEnumerator EnemyBehaviour()
+    protected override IEnumerator GetRandomBehaviour()
     {
         while (alive)
         {
+            if (behaviours.Length == 0)
+                yield break;
             EnemyMovement state = behaviours[Random.Range(0, behaviours.Length)];
             yield return new WaitForSeconds(ControlEnemy(state));
             yield return null;
@@ -115,8 +125,7 @@ public class JumpingEnemy : Enemy, IDamagable
 
     private void OnCollisionEnter2D(Collision2D col)
     {
-        PlayerController p = col.gameObject.GetComponent<PlayerController>();
-        if (p != null) p.Damage(dmg);
+        dmgOnCol.RunOnCollision(col);
     }
 
     public void Damage(int dmg)

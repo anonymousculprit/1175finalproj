@@ -27,6 +27,8 @@ public class PlayerController : MonoBehaviour, IInit, IDamagable
     GrabState pState = GrabState.NULL;
 
     float control = 1f;
+    static int flip = 1;
+    public static int Flip { get => flip; }
 
     // components
     Rigidbody2D rb;
@@ -41,6 +43,7 @@ public class PlayerController : MonoBehaviour, IInit, IDamagable
     Jump jump;
     GroundCheck gc;
     Sensor sensor;
+    FlipSprite flipState;
     /* - Animator
      * - WallJump
      * - Following Object
@@ -64,6 +67,7 @@ public class PlayerController : MonoBehaviour, IInit, IDamagable
         jump.RunUpdate(ref force, Input.GetAxisRaw("Jump"), gState);
         gc.RunUpdate(ref gState, transform.position);
         sensor.RunUpdate(Input.GetAxisRaw("Horizontal"), Input.GetAxisRaw("Fire2"), ref pState);
+        flipState.RunUpdate(Input.GetAxisRaw("Horizontal"), ref flip);
     }
 
     private void FixedUpdate()
@@ -117,10 +121,12 @@ public class PlayerController : MonoBehaviour, IInit, IDamagable
         move = new Move();
         jump = new Jump();
         gc = new GroundCheck();
+        flipState = new FlipSprite();
 
         move.OnInit(maxSpeed, accel, rb);
         jump.OnInit(maxJump, jumpBoost, rb, false, maxExtraJumps);
         gc.OnInit(CalculateFeet());
+        flipState.OnInit(spr);
     }
 
     public void Damage(int dmg)

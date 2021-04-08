@@ -4,9 +4,10 @@ using UnityEngine;
 
 public class FireBullet
 {
+    GameObject parent;
     ObjectPool objPool;
     int maxBullets;
-    float currCD, firingCD;
+    float currCD, firingCD, radius;
 
     public void OnInit(int _maxBullets, float _firingCD, ObjectPool _oPool)
     {
@@ -26,6 +27,7 @@ public class FireBullet
     void SpawnBullet(Vector3 spawnPosition)
     {
         if (Input.GetButtonDown("Fire1") && currCD <= 0)
+        {
             if (objPool.GetActiveCount() < maxBullets)
             {
                 currCD = firingCD;
@@ -33,5 +35,7 @@ public class FireBullet
                 go.transform.position = spawnPosition;
                 go.SetActive(true);
             }
+        }
+
     }
 }
