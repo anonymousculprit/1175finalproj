@@ -125,7 +125,8 @@ public class JumpingEnemy : EnemyBehaviour, IDamagable
 
     private void OnCollisionEnter2D(Collision2D col)
     {
-        dmgOnCol.RunOnCollision(col);
+        if (dmgOnCol != null)
+            dmgOnCol.RunOnCollision(col);
     }
 
     public void Damage(int dmg)

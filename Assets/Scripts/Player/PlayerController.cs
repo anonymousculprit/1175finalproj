@@ -18,6 +18,7 @@ public class PlayerController : MonoBehaviour, IInit, IDamagable
     public float maxJump;
     public float jumpBoost;
     public int maxExtraJumps;
+    public bool wallJump;
 
     [Header("State Variables")]
     [SerializeField] GroundStatePair[] groundStateSettings;
@@ -27,6 +28,8 @@ public class PlayerController : MonoBehaviour, IInit, IDamagable
     GrabState pState = GrabState.NULL;
 
     float control = 1f;
+    bool facingWall = false;
+
     static int flip = 1;
     public static int Flip { get => flip; }
 
@@ -49,6 +52,7 @@ public class PlayerController : MonoBehaviour, IInit, IDamagable
      * - Following Object
      * - Grabbable
      */
+     
 
     Vector3 force = new Vector3(0,0,0);
 
@@ -63,10 +67,12 @@ public class PlayerController : MonoBehaviour, IInit, IDamagable
         control = GetControl();
         maxSpeed = GetMaxSpeed();
 
+        Debug.Log("Facing Wall: " + facingWall);
+
         move.RunUpdate(ref force, Input.GetAxisRaw("Horizontal"), control, maxSpeed);
-        jump.RunUpdate(ref force, Input.GetAxisRaw("Jump"), gState);
+        jump.RunUpdate(ref force, Input.GetAxisRaw("Jump"), gState, facingWall);
         gc.RunUpdate(ref gState, transform.position);
-        sensor.RunUpdate(Input.GetAxisRaw("Horizontal"), Input.GetAxisRaw("Fire2"), ref pState);
+        sensor.RunUpdate(Input.GetAxisRaw("Horizontal"), Input.GetAxisRaw("Fire2"), ref pState, ref facingWall);
         flipState.RunUpdate(Input.GetAxisRaw("Horizontal"), ref flip);
     }
 
@@ -124,7 +130,7 @@ public class PlayerController : MonoBehaviour, IInit, IDamagable
         flipState = new FlipSprite();
 
         move.OnInit(maxSpeed, accel, rb);
-        jump.OnInit(maxJump, jumpBoost, rb, false, maxExtraJumps);
+        jump.OnInit(maxJump, jumpBoost, rb, false, maxExtraJumps, wallJump);
         gc.OnInit(CalculateFeet());
         flipState.OnInit(spr);
     }

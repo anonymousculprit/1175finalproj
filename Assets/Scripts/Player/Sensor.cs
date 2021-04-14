@@ -5,14 +5,13 @@ using UnityEngine;
 [RequireComponent(typeof(CircleCollider2D))]
 public class Sensor : MonoBehaviour, IInit
 {
-
-
     CircleCollider2D col;
     Collider2D sensedObject;
 
     // Behaviours
     Flip flip;
     Grab grab;
+    WallCheck wallCheck;
 
     private void Start()
     {
@@ -20,10 +19,11 @@ public class Sensor : MonoBehaviour, IInit
         InitBehaviours();
     }
 
-    public void RunUpdate(float hControl, float gControl, ref GrabState state)
+    public void RunUpdate(float hControl, float gControl, ref GrabState state, ref bool facingWall)
     {
         if (flip != null) flip.RunUpdate(transform, hControl, gControl);
         if (grab != null) grab.RunUpdate(ref sensedObject, gControl, ref state);
+        if (wallCheck != null) wallCheck.RunUpdate(ref facingWall, sensedObject);
     }
 
     public void RunFixedUpdate(float hControl, GrabState state, Vector3 force)
@@ -50,6 +50,7 @@ public class Sensor : MonoBehaviour, IInit
     {
         flip = new Flip();
         grab = new Grab();
+        wallCheck = new WallCheck();
 
         flip.OnInit(transform.localPosition);
     }
