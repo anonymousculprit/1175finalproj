@@ -13,7 +13,7 @@ public class Collectable : MonoBehaviour, IInit
     public Collider2D col;
 
     [Header("Burst Settings")]
-    public bool burst = false;
+    public bool burst;
     public float burstForce = 10f;
     
     [Header("Drawn To Player Settings")]
@@ -49,10 +49,12 @@ public class Collectable : MonoBehaviour, IInit
 
     private void OnEnable()
     {
+        InitBehaviours();
+
         if (expirationTime > 0)
             StartCoroutine(WaitToExpire(expirationTime));
 
-        if (burst && rb != null)
+        if (applyForce != null)
             applyForce.RunOnce(col, Vector2.up);
     }
 

@@ -45,6 +45,7 @@ public class SimpleRopeV2 : MonoBehaviour
                                         + new Vector3(0, -SpriteRecomputedHeight * i, 0)
                                       , this.transform.rotation 
                                       );
+            ChainObj.transform.parent = gameObject.transform;
             var Hinge    = ChainObj.GetComponent<HingeJoint2D>();
             var RB       = ChainObj.GetComponent<Rigidbody2D>();
 

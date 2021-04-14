@@ -145,7 +145,6 @@ public class JumpingEnemy : EnemyBehaviour, IDamagable
         if (hp > 0)
             return;
 
-        Debug.Log("im dead!");
         StopAllCoroutines();
         Death();
     }

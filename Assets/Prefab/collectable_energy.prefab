@@ -50,10 +50,10 @@ MonoBehaviour:
   types: 01000000
   keyType: 0
   expirationTime: 10
-  burst: 1
-  burstForce: 100
   rb: {fileID: 4565679262972288624}
   col: {fileID: 4565679262972288625}
+  burst: 1
+  burstForce: 100
   isDrawnToPlayer: 1
   range: 3
   drawForce: 1
@@ -136,7 +136,7 @@ Rigidbody2D:
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
-  m_Mass: 1
+  m_Mass: 50
   m_LinearDrag: 0
   m_AngularDrag: 0.05
   m_GravityScale: 1
