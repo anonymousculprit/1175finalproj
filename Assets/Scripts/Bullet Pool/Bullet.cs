@@ -54,8 +54,6 @@ public class Bullet : MonoBehaviour
     }
     void MoveTowardsTarget()
     {
-        Debug.Log(cTime);
-
         if (target != null)
         {
             if (!target.activeInHierarchy)

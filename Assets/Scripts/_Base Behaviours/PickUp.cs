@@ -4,9 +4,11 @@ using UnityEngine;
 
 public class PickUp
 {
-    public void RunOnTriggerEnter(GameObject go, Collider2D col)
+    public void RunOnTriggerEnter(Collider2D col, System.Action action)
     {
         if (col.GetComponent<PlayerController>() != null)
-            go.SetActive(false);
+        {
+            action?.Invoke();
+        }
     }
 }

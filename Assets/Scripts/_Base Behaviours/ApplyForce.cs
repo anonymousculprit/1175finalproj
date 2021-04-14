@@ -11,9 +11,9 @@ public class ApplyForce
         force = _force;
     }
 
-    public void RunOnCollision(Collider2D col)
+    public void RunOnce(Collider2D col, Vector2 dir)
     {
         Debug.Log("Applying Force.");
-        col.attachedRigidbody.AddForce(Vector2.up * force);
+        col.attachedRigidbody.AddForce(dir * force);
     }
 }

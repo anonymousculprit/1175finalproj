@@ -19,6 +19,11 @@ public class JumpingEnemy : EnemyBehaviour, IDamagable
     public float maxJump;
     public float jumpBoost;
 
+    [Header("Loot Table")]
+    public float deathBurst;
+    public int minLootCount, maxLootCount;
+    public Collectable[] loot;
+
     GroundState gState = GroundState.NULL;
 
     int isMoving, isJumping;
@@ -142,7 +147,34 @@ public class JumpingEnemy : EnemyBehaviour, IDamagable
 
         Debug.Log("im dead!");
         StopAllCoroutines();
+        Death();
+    }
+    
+    public void Death()
+    {
+        SpawnCollectables();
         gameObject.SetActive(false);
+    }
+
+    void SpawnCollectables()
+    {
+        if (loot == null || loot.Length == 0)
+            return;
+
+        int dropCount = Random.Range(minLootCount, maxLootCount);
+        Collectable[] cols = new Collectable[dropCount];
+
+        for (int i = 0; i < dropCount; i++)
+        {
+            cols[i] = loot[Random.Range(0, loot.Length)];
+            Instantiate(cols[i].gameObject, RandomOffsetPosition(transform.position, 0.25f, 3f), Quaternion.identity);
+        }
+    }
+
+    Vector3 RandomOffsetPosition(Vector3 pos, float rX, float rY)
+    {
+        pos += new Vector3(Random.Range(-rX, rX), Random.Range(0, rY), 0);
+        return pos;
     }
 
     //private void OnDrawGizmos()

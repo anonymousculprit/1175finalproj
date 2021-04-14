@@ -33,6 +33,6 @@ public class JumpingPlatform : MonoBehaviour, IInit
         if (p == null)
             return;
 
-        applyForce.RunOnCollision(col);
+        applyForce.RunOnce(col, Vector2.up);
     }
 }

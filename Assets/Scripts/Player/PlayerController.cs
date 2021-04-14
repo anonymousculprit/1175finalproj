@@ -33,6 +33,9 @@ public class PlayerController : MonoBehaviour, IInit, IDamagable
     static int flip = 1;
     public static int Flip { get => flip; }
 
+    static PlayerController player;
+    public static PlayerController Player { get => player; }
+
     // components
     Rigidbody2D rb;
     CapsuleCollider2D col;
@@ -58,6 +61,7 @@ public class PlayerController : MonoBehaviour, IInit, IDamagable
 
     private void Start()
     {
+        player = this;
         GrabComponents();
         InitBehaviours();
     }
@@ -66,8 +70,6 @@ public class PlayerController : MonoBehaviour, IInit, IDamagable
     {
         control = GetControl();
         maxSpeed = GetMaxSpeed();
-
-        Debug.Log("Facing Wall: " + facingWall);
 
         move.RunUpdate(ref force, Input.GetAxisRaw("Horizontal"), control, maxSpeed);
         jump.RunUpdate(ref force, Input.GetAxisRaw("Jump"), gState, facingWall);

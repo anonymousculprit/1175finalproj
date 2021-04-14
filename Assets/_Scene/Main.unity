@@ -616,7 +616,7 @@ EdgeCollider2D:
   m_GameObject: {fileID: 714532873}
   m_Enabled: 1
   m_Density: 1
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 6200000, guid: dc659651bbc48064da51df1634b3ce96, type: 2}
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
@@ -686,6 +686,10 @@ MonoBehaviour:
   accel: 0
   maxJump: 0
   jumpBoost: 0
+  deathBurst: 0
+  minLootCount: 0
+  maxLootCount: 0
+  loot: []
 --- !u!95 &720135161
 Animator:
   serializedVersion: 3
@@ -839,7 +843,15 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   types: 03000000
-  type: 0
+  keyType: 1
+  expirationTime: 0
+  rb: {fileID: 0}
+  col: {fileID: 0}
+  burst: 0
+  burstForce: 10
+  isDrawnToPlayer: 0
+  range: 0
+  drawForce: 0
 --- !u!212 &810824206
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -1073,6 +1085,10 @@ MonoBehaviour:
   accel: 300
   maxJump: 0.25
   jumpBoost: 500
+  deathBurst: 0
+  minLootCount: 0
+  maxLootCount: 0
+  loot: []
 --- !u!95 &883731196
 Animator:
   serializedVersion: 3
@@ -1414,8 +1430,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b6b2a291bdffca0458f55eb1045084e2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  keyType: 0
-  range: 1
+  keyType: 1
+  range: 3
 --- !u!70 &949793898
 CapsuleCollider2D:
   m_ObjectHideFlags: 0
@@ -1543,7 +1559,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &1147896180
 Transform:
   m_ObjectHideFlags: 0
@@ -1581,7 +1597,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &1172641946
 Transform:
   m_ObjectHideFlags: 0
@@ -1618,6 +1634,12 @@ MonoBehaviour:
   accel: 300
   maxJump: 0
   jumpBoost: 0
+  deathBurst: 500
+  minLootCount: 2
+  maxLootCount: 5
+  loot:
+  - {fileID: 4565679262972288620, guid: 6281e2a3bde9b7b40a05323ad1bfc72d, type: 3}
+  - {fileID: 7218236168797913039, guid: fbf09290cd2a60542a4d4f989e995611, type: 3}
 --- !u!95 &1172641948
 Animator:
   serializedVersion: 3
@@ -1742,7 +1764,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1312176551
 Transform:
   m_ObjectHideFlags: 0
@@ -1845,7 +1867,7 @@ GameObject:
   - component: {fileID: 1552306106}
   - component: {fileID: 1552306105}
   m_Layer: 0
-  m_Name: New Sprite
+  m_Name: Floor Image
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

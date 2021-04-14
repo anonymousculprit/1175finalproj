@@ -33,6 +33,7 @@ public enum CollectableTypes
 
 public enum KeyTypes
 {
+    NULL,
     KEY1,
     KEY2
 }
