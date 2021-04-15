@@ -13,6 +13,6 @@ public class ApplyForce
 
     public void RunOnce(Collider2D col, Vector2 dir)
     {
-        col.attachedRigidbody.AddForce(dir * force);
+        col.attachedRigidbody.AddForce(dir * force * col.attachedRigidbody.mass);
     }
 }

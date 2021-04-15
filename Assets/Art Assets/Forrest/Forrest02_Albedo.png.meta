@@ -1,0 +1,2038 @@
+fileFormatVersion: 2
+guid: 3ec94af5fd940de4abedacb3408bf8f0
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -4323886478192894151
+    second: Forrest02_Albedo_0
+  - first:
+      213: 3828111793685686344
+    second: Forrest02_Albedo_1
+  - first:
+      213: 5411187280292082508
+    second: Forrest02_Albedo_2
+  - first:
+      213: 8409387648553321518
+    second: Forrest02_Albedo_3
+  - first:
+      213: 8559101218382960220
+    second: Forrest02_Albedo_4
+  - first:
+      213: -4939498003374677116
+    second: Forrest02_Albedo_5
+  - first:
+      213: 3937690451668978382
+    second: Forrest02_Albedo_6
+  - first:
+      213: 4562984066870150197
+    second: Forrest02_Albedo_7
+  - first:
+      213: -4415274219843987446
+    second: Forrest02_Albedo_8
+  - first:
+      213: -1302149772459290381
+    second: Forrest02_Albedo_9
+  - first:
+      213: -6301441467056065915
+    second: Forrest02_Albedo_10
+  - first:
+      213: 6847582872632113117
+    second: Forrest02_Albedo_11
+  - first:
+      213: 5992602222063453855
+    second: Forrest02_Albedo_12
+  - first:
+      213: -328389193390541332
+    second: Forrest02_Albedo_13
+  - first:
+      213: 3550650640130341579
+    second: Forrest02_Albedo_14
+  - first:
+      213: 8374655941960533265
+    second: Forrest02_Albedo_15
+  - first:
+      213: 6152936477388635740
+    second: Forrest02_Albedo_16
+  - first:
+      213: -4060240167289889142
+    second: Forrest02_Albedo_17
+  - first:
+      213: 2549678242711465129
+    second: Forrest02_Albedo_18
+  - first:
+      213: -1436286968992045746
+    second: Forrest02_Albedo_19
+  - first:
+      213: -4616617312030475213
+    second: Forrest02_Albedo_20
+  - first:
+      213: 3195049238194505725
+    second: Forrest02_Albedo_21
+  - first:
+      213: 7413468258447260176
+    second: Forrest02_Albedo_22
+  - first:
+      213: 6363554932541304346
+    second: Forrest02_Albedo_23
+  - first:
+      213: -4494552033301774429
+    second: Forrest02_Albedo_24
+  - first:
+      213: -1141704978317304492
+    second: Forrest02_Albedo_25
+  - first:
+      213: 334421843599042946
+    second: Forrest02_Albedo_26
+  - first:
+      213: -59694425900063590
+    second: Forrest02_Albedo_27
+  - first:
+      213: 4034935616077086616
+    second: Forrest02_Albedo_28
+  - first:
+      213: -3896744843027547000
+    second: Forrest02_Albedo_29
+  - first:
+      213: -1382844924961828972
+    second: Forrest02_Albedo_30
+  - first:
+      213: 314930565723765407
+    second: Forrest02_Albedo_31
+  - first:
+      213: 4660174073351707146
+    second: Forrest02_Albedo_32
+  - first:
+      213: 3294411268308415334
+    second: Forrest02_Albedo_33
+  - first:
+      213: -6196401560556323626
+    second: Forrest02_Albedo_34
+  - first:
+      213: 4907916030838074253
+    second: Forrest02_Albedo_35
+  - first:
+      213: 1992605519846612173
+    second: Forrest02_Albedo_36
+  - first:
+      213: 1276642200518391194
+    second: Forrest02_Albedo_37
+  - first:
+      213: 7656270753596115265
+    second: Forrest02_Albedo_38
+  - first:
+      213: -7564508702539086844
+    second: Forrest02_Albedo_39
+  - first:
+      213: -8126176308319393153
+    second: Forrest02_Albedo_40
+  - first:
+      213: -8544661964450466788
+    second: Forrest02_Albedo_41
+  - first:
+      213: 5197452726547753539
+    second: Forrest02_Albedo_42
+  - first:
+      213: -6756084470292270476
+    second: Forrest02_Albedo_43
+  - first:
+      213: -7569626024937381164
+    second: Forrest02_Albedo_44
+  - first:
+      213: -7163730646208935263
+    second: Forrest02_Albedo_45
+  - first:
+      213: 5407132843428493211
+    second: Forrest02_Albedo_46
+  - first:
+      213: -5706863723218153610
+    second: Forrest02_Albedo_47
+  - first:
+      213: -3303335944544934533
+    second: Forrest02_Albedo_48
+  - first:
+      213: 8975096948466828840
+    second: Forrest02_Albedo_49
+  - first:
+      213: -3155418354376437683
+    second: Forrest02_Albedo_50
+  - first:
+      213: -3980708630530522951
+    second: Forrest02_Albedo_51
+  - first:
+      213: 5051554935411583
+    second: Forrest02_Albedo_52
+  - first:
+      213: -6675468963325219256
+    second: Forrest02_Albedo_53
+  - first:
+      213: -4270000953432646565
+    second: Forrest02_Albedo_54
+  - first:
+      213: 7372585583460371429
+    second: Forrest02_Albedo_55
+  - first:
+      213: 2449683551480414166
+    second: Forrest02_Albedo_56
+  - first:
+      213: -5680652989268730872
+    second: Forrest02_Albedo_57
+  - first:
+      213: 5972389680792823764
+    second: Forrest02_Albedo_58
+  - first:
+      213: 4808872015050837689
+    second: Forrest02_Albedo_59
+  - first:
+      213: -6416876392278332609
+    second: Forrest02_Albedo_60
+  - first:
+      213: -4846684361093134704
+    second: Forrest02_Albedo_61
+  - first:
+      213: 33582431068790729
+    second: Forrest02_Albedo_62
+  - first:
+      213: -6152293784874472678
+    second: Forrest02_Albedo_63
+  - first:
+      213: 605170433440850048
+    second: Forrest02_Albedo_64
+  - first:
+      213: -3905789188471166658
+    second: Forrest02_Albedo_65
+  - first:
+      213: 7105434263461060621
+    second: Forrest02_Albedo_66
+  - first:
+      213: -4535083447151548294
+    second: Forrest02_Albedo_67
+  - first:
+      213: 6760371669278108296
+    second: Forrest02_Albedo_68
+  - first:
+      213: 7488985611185692500
+    second: Forrest02_Albedo_69
+  - first:
+      213: 4201548128313737497
+    second: Forrest02_Albedo_70
+  - first:
+      213: -8591404021665461513
+    second: Forrest02_Albedo_71
+  - first:
+      213: 2673505974903029431
+    second: Forrest02_Albedo_72
+  - first:
+      213: -3863590716834303243
+    second: Forrest02_Albedo_73
+  - first:
+      213: -6004589189890117951
+    second: Forrest02_Albedo_74
+  - first:
+      213: 2933817832866784157
+    second: Forrest02_Albedo_75
+  - first:
+      213: 7810277371375106967
+    second: Forrest02_Albedo_76
+  - first:
+      213: -6618946853959597527
+    second: Forrest02_Albedo_77
+  - first:
+      213: -1270478986422780074
+    second: Forrest02_Albedo_78
+  - first:
+      213: -1001932385766796995
+    second: Forrest02_Albedo_79
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Forrest02_Albedo_0
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 619
+        width: 61
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93f923238287ef3c0800000000000000
+      internalID: -4323886478192894151
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Forrest02_Albedo_1
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 619
+        width: 73
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8486e17e46f202530800000000000000
+      internalID: 3828111793685686344
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Forrest02_Albedo_2
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 611
+        width: 30
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c43fbe66926681b40800000000000000
+      internalID: 5411187280292082508
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Forrest02_Albedo_3
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 617
+        width: 46
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e240492f28524b470800000000000000
+      internalID: 8409387648553321518
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Forrest02_Albedo_4
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 597
+        width: 67
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c565456c53908c670800000000000000
+      internalID: 8559101218382960220
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Forrest02_Albedo_5
+      rect:
+        serializedVersion: 2
+        x: 347
+        y: 605
+        width: 30
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 483e91c8cb0637bb0800000000000000
+      internalID: -4939498003374677116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Forrest02_Albedo_6
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 604
+        width: 50
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eca4d2f5a9c75a630800000000000000
+      internalID: 3937690451668978382
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Forrest02_Albedo_7
+      rect:
+        serializedVersion: 2
+        x: 439
+        y: 580
+        width: 49
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 534009545d9f25f30800000000000000
+      internalID: 4562984066870150197
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Forrest02_Albedo_8
+      rect:
+        serializedVersion: 2
+        x: 490
+        y: 609
+        width: 29
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a08524c7d7bc9b2c0800000000000000
+      internalID: -4415274219843987446
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Forrest02_Albedo_9
+      rect:
+        serializedVersion: 2
+        x: 562
+        y: 588
+        width: 37
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f055385ea5ddede0800000000000000
+      internalID: -1302149772459290381
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Forrest02_Albedo_10
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 611
+        width: 42
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 582f4374f58cc88a0800000000000000
+      internalID: -6301441467056065915
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Forrest02_Albedo_11
+      rect:
+        serializedVersion: 2
+        x: 648
+        y: 611
+        width: 78
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd73945b750870f50800000000000000
+      internalID: 6847582872632113117
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Forrest02_Albedo_12
+      rect:
+        serializedVersion: 2
+        x: 729
+        y: 587
+        width: 74
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f960f4688fff92350800000000000000
+      internalID: 5992602222063453855
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Forrest02_Albedo_13
+      rect:
+        serializedVersion: 2
+        x: 806
+        y: 600
+        width: 36
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce531ebb4c3517bf0800000000000000
+      internalID: -328389193390541332
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Forrest02_Albedo_14
+      rect:
+        serializedVersion: 2
+        x: 832
+        y: 580
+        width: 63
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bca7b7ee1f1764130800000000000000
+      internalID: 3550650640130341579
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Forrest02_Albedo_15
+      rect:
+        serializedVersion: 2
+        x: 899
+        y: 623
+        width: 92
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1150ca85531c83470800000000000000
+      internalID: 8374655941960533265
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Forrest02_Albedo_16
+      rect:
+        serializedVersion: 2
+        x: 981
+        y: 645
+        width: 67
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5efa44602f936550800000000000000
+      internalID: 6152936477388635740
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Forrest02_Albedo_17
+      rect:
+        serializedVersion: 2
+        x: 1048
+        y: 633
+        width: 74
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8ed9e5741127a7c0800000000000000
+      internalID: -4060240167289889142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Forrest02_Albedo_18
+      rect:
+        serializedVersion: 2
+        x: 1129
+        y: 577
+        width: 55
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9aceb5c5ad6426320800000000000000
+      internalID: 2549678242711465129
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Forrest02_Albedo_19
+      rect:
+        serializedVersion: 2
+        x: 378
+        y: 626
+        width: 7
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e45e4b98c98411ce0800000000000000
+      internalID: -1436286968992045746
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Forrest02_Albedo_20
+      rect:
+        serializedVersion: 2
+        x: 518
+        y: 582
+        width: 40
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33c318cb30b7eefb0800000000000000
+      internalID: -4616617312030475213
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Forrest02_Albedo_21
+      rect:
+        serializedVersion: 2
+        x: 1077
+        y: 577
+        width: 27
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df74772aa58175c20800000000000000
+      internalID: 3195049238194505725
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Forrest02_Albedo_22
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 567
+        width: 74
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01af1625a1ee1e660800000000000000
+      internalID: 7413468258447260176
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Forrest02_Albedo_23
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 559
+        width: 68
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1e2fcede73ef4850800000000000000
+      internalID: 6363554932541304346
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Forrest02_Albedo_24
+      rect:
+        serializedVersion: 2
+        x: 189
+        y: 563
+        width: 38
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3afb9862db420a1c0800000000000000
+      internalID: -4494552033301774429
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Forrest02_Albedo_25
+      rect:
+        serializedVersion: 2
+        x: 235
+        y: 528
+        width: 40
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45d1a190f59d720f0800000000000000
+      internalID: -1141704978317304492
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Forrest02_Albedo_26
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 510
+        width: 47
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2892ad815ea14a400800000000000000
+      internalID: 334421843599042946
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Forrest02_Albedo_27
+      rect:
+        serializedVersion: 2
+        x: 389
+        y: 537
+        width: 35
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a94e7256c3ceb2ff0800000000000000
+      internalID: -59694425900063590
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Forrest02_Albedo_28
+      rect:
+        serializedVersion: 2
+        x: 436
+        y: 525
+        width: 46
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89fb8d79098fef730800000000000000
+      internalID: 4034935616077086616
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Forrest02_Albedo_29
+      rect:
+        serializedVersion: 2
+        x: 494
+        y: 547
+        width: 72
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88cf10b063bfbe9c0800000000000000
+      internalID: -3896744843027547000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Forrest02_Albedo_30
+      rect:
+        serializedVersion: 2
+        x: 582
+        y: 539
+        width: 68
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49fc23c0ed52fcce0800000000000000
+      internalID: -1382844924961828972
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Forrest02_Albedo_31
+      rect:
+        serializedVersion: 2
+        x: 651
+        y: 527
+        width: 61
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9ab0e25eabde5400800000000000000
+      internalID: 314930565723765407
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Forrest02_Albedo_32
+      rect:
+        serializedVersion: 2
+        x: 710
+        y: 540
+        width: 38
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0a1d9901a34ca040800000000000000
+      internalID: 4660174073351707146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Forrest02_Albedo_33
+      rect:
+        serializedVersion: 2
+        x: 770
+        y: 527
+        width: 45
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 663319f089918bd20800000000000000
+      internalID: 3294411268308415334
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Forrest02_Albedo_34
+      rect:
+        serializedVersion: 2
+        x: 839
+        y: 546
+        width: 82
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6dc3d515c95f10aa0800000000000000
+      internalID: -6196401560556323626
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Forrest02_Albedo_35
+      rect:
+        serializedVersion: 2
+        x: 875
+        y: 475
+        width: 50
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8b6c8570ab6c1440800000000000000
+      internalID: 4907916030838074253
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Forrest02_Albedo_36
+      rect:
+        serializedVersion: 2
+        x: 934
+        y: 515
+        width: 49
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dcc90fbb92827ab10800000000000000
+      internalID: 1992605519846612173
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Forrest02_Albedo_37
+      rect:
+        serializedVersion: 2
+        x: 991
+        y: 572
+        width: 39
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a95fb23415b87b110800000000000000
+      internalID: 1276642200518391194
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Forrest02_Albedo_38
+      rect:
+        serializedVersion: 2
+        x: 1029
+        y: 542
+        width: 37
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1490f4c8fa9804a60800000000000000
+      internalID: 7656270753596115265
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Forrest02_Albedo_39
+      rect:
+        serializedVersion: 2
+        x: 1079
+        y: 506
+        width: 35
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4048eccd967750790800000000000000
+      internalID: -7564508702539086844
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Forrest02_Albedo_40
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 517
+        width: 61
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7a6d60b3b50a3f80800000000000000
+      internalID: -8126176308319393153
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Forrest02_Albedo_41
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 511
+        width: 29
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c14732307334b6980800000000000000
+      internalID: -8544661964450466788
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Forrest02_Albedo_42
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 518
+        width: 45
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34aa3cea7bf012840800000000000000
+      internalID: 5197452726547753539
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Forrest02_Albedo_43
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 524
+        width: 39
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47232b338f09d32a0800000000000000
+      internalID: -6756084470292270476
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Forrest02_Albedo_44
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 460
+        width: 64
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d22e056c3943f690800000000000000
+      internalID: -7569626024937381164
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Forrest02_Albedo_45
+      rect:
+        serializedVersion: 2
+        x: 282
+        y: 514
+        width: 50
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1aa032eaee0559c90800000000000000
+      internalID: -7163730646208935263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Forrest02_Albedo_46
+      rect:
+        serializedVersion: 2
+        x: 411
+        y: 462
+        width: 52
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9737e14caef90b40800000000000000
+      internalID: 5407132843428493211
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Forrest02_Albedo_47
+      rect:
+        serializedVersion: 2
+        x: 506
+        y: 503
+        width: 60
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67fc4041ea52dc0b0800000000000000
+      internalID: -5706863723218153610
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Forrest02_Albedo_48
+      rect:
+        serializedVersion: 2
+        x: 602
+        y: 461
+        width: 75
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b75ae93d5713822d0800000000000000
+      internalID: -3303335944544934533
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Forrest02_Albedo_49
+      rect:
+        serializedVersion: 2
+        x: 712
+        y: 506
+        width: 54
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 826ce0e5f13fd8c70800000000000000
+      internalID: 8975096948466828840
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Forrest02_Albedo_50
+      rect:
+        serializedVersion: 2
+        x: 823
+        y: 472
+        width: 58
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4015ad89b3b534d0800000000000000
+      internalID: -3155418354376437683
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Forrest02_Albedo_51
+      rect:
+        serializedVersion: 2
+        x: 978
+        y: 493
+        width: 86
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b085ea579ea1c8c0800000000000000
+      internalID: -3980708630530522951
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Forrest02_Albedo_52
+      rect:
+        serializedVersion: 2
+        x: 1162
+        y: 458
+        width: 22
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f731d79cc52f11000800000000000000
+      internalID: 5051554935411583
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Forrest02_Albedo_53
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 462
+        width: 73
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84eead39858fb53a0800000000000000
+      internalID: -6675468963325219256
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Forrest02_Albedo_54
+      rect:
+        serializedVersion: 2
+        x: 94
+        y: 461
+        width: 70
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5c511c91c8edb4c0800000000000000
+      internalID: -4270000953432646565
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Forrest02_Albedo_55
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 460
+        width: 67
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5eb425ac68fa05660800000000000000
+      internalID: 7372585583460371429
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Forrest02_Albedo_56
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 496
+        width: 25
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6df7b1a06360ff120800000000000000
+      internalID: 2449683551480414166
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Forrest02_Albedo_57
+      rect:
+        serializedVersion: 2
+        x: 477
+        y: 461
+        width: 71
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80c506224344a21b0800000000000000
+      internalID: -5680652989268730872
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Forrest02_Albedo_58
+      rect:
+        serializedVersion: 2
+        x: 545
+        y: 461
+        width: 54
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d76dd785c032e250800000000000000
+      internalID: 5972389680792823764
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Forrest02_Albedo_59
+      rect:
+        serializedVersion: 2
+        x: 671
+        y: 460
+        width: 49
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9be0c638e9b8cb240800000000000000
+      internalID: 4808872015050837689
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Forrest02_Albedo_60
+      rect:
+        serializedVersion: 2
+        x: 713
+        y: 460
+        width: 65
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3be8a65beca2f6a0800000000000000
+      internalID: -6416876392278332609
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Forrest02_Albedo_61
+      rect:
+        serializedVersion: 2
+        x: 929
+        y: 469
+        width: 73
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0964a9e904e1dbcb0800000000000000
+      internalID: -4846684361093134704
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Forrest02_Albedo_62
+      rect:
+        serializedVersion: 2
+        x: 1077
+        y: 471
+        width: 59
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9cf9c8a0b0f477000800000000000000
+      internalID: 33582431068790729
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Forrest02_Albedo_63
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 247
+        width: 131
+        height: 214
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1ba6be1669ae9aa0800000000000000
+      internalID: -6152293784874472678
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Forrest02_Albedo_64
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 247
+        width: 85
+        height: 214
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 080afc98d4ff56800800000000000000
+      internalID: 605170433440850048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Forrest02_Albedo_65
+      rect:
+        serializedVersion: 2
+        x: 338
+        y: 460
+        width: 64
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e396d954d69dbc9c0800000000000000
+      internalID: -3905789188471166658
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Forrest02_Albedo_66
+      rect:
+        serializedVersion: 2
+        x: 766
+        y: 456
+        width: 73
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d006c7001d29b9260800000000000000
+      internalID: 7105434263461060621
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Forrest02_Albedo_67
+      rect:
+        serializedVersion: 2
+        x: 872
+        y: 380
+        width: 134
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7827c9f1a52011c0800000000000000
+      internalID: -4535083447151548294
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Forrest02_Albedo_68
+      rect:
+        serializedVersion: 2
+        x: 1011
+        y: 371
+        width: 173
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88aafe8173aa1dd50800000000000000
+      internalID: 6760371669278108296
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Forrest02_Albedo_69
+      rect:
+        serializedVersion: 2
+        x: 327
+        y: 245
+        width: 101
+        height: 211
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45f1cba2cb83ee760800000000000000
+      internalID: 7488985611185692500
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Forrest02_Albedo_70
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 245
+        width: 153
+        height: 208
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91109de03c5ee4a30800000000000000
+      internalID: 4201548128313737497
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Forrest02_Albedo_71
+      rect:
+        serializedVersion: 2
+        x: 626
+        y: 268
+        width: 380
+        height: 148
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7fa84cebf8335c880800000000000000
+      internalID: -8591404021665461513
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Forrest02_Albedo_72
+      rect:
+        serializedVersion: 2
+        x: 747
+        y: 385
+        width: 116
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7bebaf2f4833a1520800000000000000
+      internalID: 2673505974903029431
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Forrest02_Albedo_73
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 16
+        width: 97
+        height: 226
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f2389596b4c16ac0800000000000000
+      internalID: -3863590716834303243
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Forrest02_Albedo_74
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 16
+        width: 106
+        height: 226
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1cee27a02f96baca0800000000000000
+      internalID: -6004589189890117951
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Forrest02_Albedo_75
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 16
+        width: 166
+        height: 227
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d932bb366c307b820800000000000000
+      internalID: 2933817832866784157
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Forrest02_Albedo_76
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 15
+        width: 155
+        height: 226
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79bb51e73eda36c60800000000000000
+      internalID: 7810277371375106967
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Forrest02_Albedo_77
+      rect:
+        serializedVersion: 2
+        x: 661
+        y: 15
+        width: 189
+        height: 252
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9228c8ea7e6c424a0800000000000000
+      internalID: -6618946853959597527
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Forrest02_Albedo_78
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 16
+        width: 101
+        height: 292
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65ffba7d71a5e5ee0800000000000000
+      internalID: -1270478986422780074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Forrest02_Albedo_79
+      rect:
+        serializedVersion: 2
+        x: 1044
+        y: 16
+        width: 142
+        height: 338
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d311969bdcb6812f0800000000000000
+      internalID: -1001932385766796995
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

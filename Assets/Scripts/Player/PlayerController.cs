@@ -3,10 +3,12 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-[RequireComponent(typeof(Rigidbody2D), typeof(CapsuleCollider2D), typeof(SpriteRenderer))]
-[RequireComponent(typeof(Animator))]
+[RequireComponent(typeof(Rigidbody2D), typeof(CapsuleCollider2D))]
 public class PlayerController : MonoBehaviour, IInit, IDamagable
 {
+    [Header("References")]
+    public GameObject spriteGO;
+
     [Header("Stats")]
     public int hp;
 
@@ -50,6 +52,7 @@ public class PlayerController : MonoBehaviour, IInit, IDamagable
     GroundCheck gc;
     Sensor sensor;
     FlipSprite flipState;
+    Animation animate;
     /* - Animator
      * - WallJump
      * - Following Object
@@ -74,6 +77,7 @@ public class PlayerController : MonoBehaviour, IInit, IDamagable
         move.RunUpdate(ref force, Input.GetAxisRaw("Horizontal"), control, maxSpeed);
         jump.RunUpdate(ref force, Input.GetAxisRaw("Jump"), gState, facingWall);
         gc.RunUpdate(ref gState, transform.position);
+        animate.RunUpdate_Player(gState, Input.GetAxisRaw("Horizontal"));
         sensor.RunUpdate(Input.GetAxisRaw("Horizontal"), Input.GetAxisRaw("Fire2"), ref pState, ref facingWall);
         flipState.RunUpdate(Input.GetAxisRaw("Horizontal"), ref flip);
     }
@@ -118,8 +122,8 @@ public class PlayerController : MonoBehaviour, IInit, IDamagable
     {
         rb = GetComponent<Rigidbody2D>();
         col = GetComponent<CapsuleCollider2D>();
-        spr = GetComponent<SpriteRenderer>();
-        anim = GetComponent<Animator>();
+        anim = spriteGO.GetComponent<Animator>();
+        spr = spriteGO.GetComponent<SpriteRenderer>();
         sensor = transform.parent.GetComponentInChildren<Sensor>();
         follower = GetComponentInChildren<Follower>();
     }
@@ -130,11 +134,13 @@ public class PlayerController : MonoBehaviour, IInit, IDamagable
         jump = new Jump();
         gc = new GroundCheck();
         flipState = new FlipSprite();
+        animate = new Animation();
 
         move.OnInit(maxSpeed, accel, rb);
         jump.OnInit(maxJump, jumpBoost, rb, false, maxExtraJumps, wallJump);
         gc.OnInit(CalculateFeet());
         flipState.OnInit(spr);
+        animate.OnInit(anim, true, true);
     }
 
     public void Damage(int dmg)

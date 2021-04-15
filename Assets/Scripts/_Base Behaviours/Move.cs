@@ -16,7 +16,7 @@ public class Move
 
     public void RunUpdate(ref Vector3 v, float input, float control, float mSpeed)
     {
-        if (input == 0) { v.x -= rb.velocity.x; return; }
+        if (input == 0) { v.x -= rb.velocity.x * rb.mass * accel * Time.deltaTime; return; }
         if (Mathf.Abs(rb.velocity.x) >= maxSpeed) return;
         if (maxSpeed != mSpeed) { maxSpeed = mSpeed; }
         float m = input * rb.mass * accel * control * Time.deltaTime;

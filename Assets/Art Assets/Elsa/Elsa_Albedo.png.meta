@@ -1,0 +1,1348 @@
+fileFormatVersion: 2
+guid: cf2a2a15f30588241b2f617d82b005ac
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -586386871190911087
+    second: Elsa_Albedo_0
+  - first:
+      213: 4316353073450081162
+    second: Elsa_Albedo_1
+  - first:
+      213: 8851316628687282568
+    second: Elsa_Albedo_2
+  - first:
+      213: 5330488737876361587
+    second: Elsa_Albedo_3
+  - first:
+      213: -9194651507417036687
+    second: Elsa_Albedo_4
+  - first:
+      213: -310762852241211507
+    second: Elsa_Albedo_5
+  - first:
+      213: 1892153602700237164
+    second: Elsa_Albedo_6
+  - first:
+      213: 3769476743556204568
+    second: Elsa_Albedo_7
+  - first:
+      213: 7402298160938202732
+    second: Elsa_Albedo_8
+  - first:
+      213: -6962010166124404230
+    second: Elsa_Albedo_9
+  - first:
+      213: 6124831705616907227
+    second: Elsa_Albedo_10
+  - first:
+      213: 7106826807704533177
+    second: Elsa_Albedo_11
+  - first:
+      213: -8221990037758503609
+    second: Elsa_Albedo_12
+  - first:
+      213: -6249205330985178458
+    second: Elsa_Albedo_13
+  - first:
+      213: 7790743207308674675
+    second: Elsa_Albedo_14
+  - first:
+      213: 3378230296777365702
+    second: Elsa_Albedo_15
+  - first:
+      213: -3832962713474975614
+    second: Elsa_Albedo_16
+  - first:
+      213: -3428799262262934640
+    second: Elsa_Albedo_17
+  - first:
+      213: -4896951285934008037
+    second: Elsa_Albedo_18
+  - first:
+      213: 8645737683841824457
+    second: Elsa_Albedo_19
+  - first:
+      213: 2041474978153741077
+    second: Elsa_Albedo_20
+  - first:
+      213: -5851443664373102062
+    second: Elsa_Albedo_21
+  - first:
+      213: -7840376231007014752
+    second: Elsa_Albedo_22
+  - first:
+      213: 5532779518399192069
+    second: Elsa_Albedo_23
+  - first:
+      213: -5000602226511774084
+    second: Elsa_Albedo_24
+  - first:
+      213: -6626537446968495085
+    second: Elsa_Albedo_25
+  - first:
+      213: -1215065289209039748
+    second: Elsa_Albedo_26
+  - first:
+      213: 6915701170732806091
+    second: Elsa_Albedo_27
+  - first:
+      213: -8169931774861291739
+    second: Elsa_Albedo_28
+  - first:
+      213: -3323791726681978924
+    second: Elsa_Albedo_29
+  - first:
+      213: 7035220529842550897
+    second: Elsa_Albedo_30
+  - first:
+      213: 4790466897980797155
+    second: Elsa_Albedo_31
+  - first:
+      213: -1807417143296380143
+    second: Elsa_Albedo_32
+  - first:
+      213: -2397646875301469289
+    second: Elsa_Albedo_33
+  - first:
+      213: 7586667112093978463
+    second: Elsa_Albedo_34
+  - first:
+      213: 6894085992299467467
+    second: Elsa_Albedo_35
+  - first:
+      213: -3021286897021168035
+    second: Elsa_Albedo_36
+  - first:
+      213: -5033494531662269528
+    second: Elsa_Albedo_37
+  - first:
+      213: 982485051609278291
+    second: Elsa_Albedo_38
+  - first:
+      213: -8653514382528987304
+    second: Elsa_Albedo_39
+  - first:
+      213: -6758976553644898956
+    second: Elsa_Albedo_40
+  - first:
+      213: 5420700972525941228
+    second: Elsa_Albedo_41
+  - first:
+      213: 8053919447528695942
+    second: Elsa_Albedo_42
+  - first:
+      213: -7426711900386995643
+    second: Elsa_Albedo_43
+  - first:
+      213: 2207421530293558959
+    second: Elsa_Albedo_44
+  - first:
+      213: 1258610611630720032
+    second: Elsa_Albedo_45
+  - first:
+      213: 1332689539083359414
+    second: Elsa_Albedo_46
+  - first:
+      213: 6949734120657934507
+    second: Elsa_Albedo_47
+  - first:
+      213: -8291695859823406212
+    second: Elsa_Albedo_48
+  - first:
+      213: -7218299871117032217
+    second: Elsa_Albedo_49
+  - first:
+      213: 1092074055778519844
+    second: Elsa_Albedo_50
+  - first:
+      213: 7943832135661487709
+    second: Elsa_Albedo_51
+  - first:
+      213: -2827014664579845262
+    second: Elsa_Albedo_52
+  - first:
+      213: 7588137477675021920
+    second: Elsa_Albedo_53
+  - first:
+      213: -6096261493503186929
+    second: Elsa_Albedo_54
+  - first:
+      213: 7508532854533762151
+    second: Elsa_Albedo_55
+  - first:
+      213: 7721197922027062258
+    second: Elsa_Albedo_56
+  - first:
+      213: -7863976477057739280
+    second: Elsa_Albedo_57
+  - first:
+      213: 5982365294925054131
+    second: Elsa_Albedo_58
+  - first:
+      213: -7752215256073764116
+    second: Elsa_Albedo_59
+  - first:
+      213: 4454651195584370740
+    second: Elsa_Albedo_60
+  - first:
+      213: -3314012653908239196
+    second: Elsa_Albedo_61
+  - first:
+      213: 9002054494252676939
+    second: Elsa_Albedo_62
+  - first:
+      213: -6449233737088525442
+    second: Elsa_Albedo_63
+  - first:
+      213: -3220066823100941053
+    second: Elsa_Albedo_64
+  - first:
+      213: 4390549174420068937
+    second: Elsa_Albedo_65
+  - first:
+      213: 7532096302470805442
+    second: Elsa_Albedo_66
+  - first:
+      213: -2506332168970816286
+    second: Elsa_Albedo_67
+  - first:
+      213: 8699064211458804796
+    second: Elsa_Albedo_68
+  - first:
+      213: 1260907985667996368
+    second: Elsa_Albedo_69
+  - first:
+      213: -6586851135259521486
+    second: Elsa_Albedo_70
+  - first:
+      213: 8334809893358644551
+    second: Elsa_Albedo_71
+  - first:
+      213: -994026368426573231
+    second: Elsa_Albedo_72
+  - first:
+      213: -7634162975032079867
+    second: Elsa_Albedo_73
+  - first:
+      213: -805251184542155801
+    second: Elsa_Albedo_74
+  - first:
+      213: 1107620859934560224
+    second: Elsa_Albedo_75
+  - first:
+      213: 2558962131893558989
+    second: Elsa_Albedo_76
+  - first:
+      213: 1406911409074100908
+    second: Elsa_Albedo_77
+  - first:
+      213: -4907243211934105849
+    second: Elsa_Albedo_78
+  - first:
+      213: 877368153042387928
+    second: Elsa_Albedo_79
+  - first:
+      213: -1950103655846525171
+    second: Elsa_Albedo_80
+  - first:
+      213: 3076500934900862708
+    second: Elsa_Albedo_81
+  - first:
+      213: 4361162591087472014
+    second: Elsa_Albedo_82
+  - first:
+      213: -7813381128572348725
+    second: Elsa_Albedo_83
+  - first:
+      213: -2850892503506100084
+    second: Elsa_Albedo_84
+  - first:
+      213: -5598153910862345006
+    second: Elsa_Albedo_85
+  - first:
+      213: -7373815382957532141
+    second: Elsa_Albedo_86
+  - first:
+      213: 4252806863908679213
+    second: Elsa_Albedo_87
+  - first:
+      213: -1017115536147424046
+    second: Elsa_Albedo_88
+  - first:
+      213: 6179536575434372627
+    second: Elsa_Albedo_89
+  - first:
+      213: 3286108324382018537
+    second: Elsa_Albedo_90
+  - first:
+      213: -1291838880733393860
+    second: Elsa_Albedo_91
+  - first:
+      213: 4253414150535098620
+    second: Elsa_Albedo_92
+  - first:
+      213: 6483942676310348166
+    second: Elsa_Albedo_93
+  - first:
+      213: -8475789579990396005
+    second: Elsa_Albedo_94
+  - first:
+      213: 3310371735311052645
+    second: Elsa_Albedo_95
+  - first:
+      213: -2219971754860482605
+    second: Elsa_Albedo_96
+  - first:
+      213: 919529671643790775
+    second: Elsa_Albedo_97
+  - first:
+      213: 9083305629880432132
+    second: Elsa_Albedo_0
+  - first:
+      213: -7087319228289402838
+    second: Elsa_Albedo_1
+  - first:
+      213: 5527866285921772020
+    second: Elsa_Albedo_2
+  - first:
+      213: -5739628124641579930
+    second: Elsa_Albedo_3
+  - first:
+      213: -9104340012246692132
+    second: Elsa_Albedo_4
+  - first:
+      213: -3808579322235719620
+    second: Elsa_Albedo_5
+  - first:
+      213: -626359796508451225
+    second: Elsa_Albedo_6
+  - first:
+      213: -2611098796776446816
+    second: Elsa_Albedo_7
+  - first:
+      213: -4380834566557238447
+    second: Elsa_Albedo_8
+  - first:
+      213: 1453290931479756359
+    second: Elsa_Albedo_9
+  - first:
+      213: 6584221915112421020
+    second: Elsa_Albedo_10
+  - first:
+      213: 5315241983222535986
+    second: Elsa_Albedo_11
+  - first:
+      213: -8282938540305904714
+    second: Elsa_Albedo_12
+  - first:
+      213: -8238770729953722959
+    second: Elsa_Albedo_13
+  - first:
+      213: -7746847535773406744
+    second: Elsa_Albedo_14
+  - first:
+      213: 5910095117692184026
+    second: Elsa_Albedo_15
+  - first:
+      213: 7188121011506836118
+    second: Elsa_Albedo_16
+  - first:
+      213: -3068185728272989814
+    second: Elsa_Albedo_17
+  - first:
+      213: -7860099112715426278
+    second: Elsa_Albedo_18
+  - first:
+      213: -7007822873839625428
+    second: Elsa_Albedo_19
+  - first:
+      213: -8403759911932618093
+    second: Elsa_Albedo_20
+  - first:
+      213: -4020578019125898411
+    second: Elsa_Albedo_21
+  - first:
+      213: 8762286216259647420
+    second: Elsa_Albedo_22
+  - first:
+      213: 3677116295422783759
+    second: Elsa_Albedo_23
+  - first:
+      213: 3891440490754899654
+    second: Elsa_Albedo_24
+  - first:
+      213: -1725100953757989713
+    second: Elsa_Albedo_25
+  - first:
+      213: -49011310398245393
+    second: Elsa_Albedo_26
+  - first:
+      213: -7287916407577755408
+    second: Elsa_Albedo_27
+  - first:
+      213: 5590370571348583184
+    second: Elsa_Albedo_28
+  - first:
+      213: 5762145431323107087
+    second: Elsa_Albedo_29
+  - first:
+      213: 6992077865967604846
+    second: Elsa_Albedo_30
+  - first:
+      213: -284784723743242692
+    second: Elsa_Albedo_31
+  - first:
+      213: -649573318567842040
+    second: Elsa_Albedo_32
+  - first:
+      213: -1724356626353408046
+    second: Elsa_Albedo_33
+  - first:
+      213: -4488974794775433523
+    second: Elsa_Albedo_34
+  - first:
+      213: 2618978868931694012
+    second: Elsa_Albedo_35
+  - first:
+      213: 6739414963836093331
+    second: Elsa_Albedo_36
+  - first:
+      213: -2849318346974288967
+    second: Elsa_Albedo_37
+  - first:
+      213: -7802785728198516633
+    second: Elsa_Albedo_38
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Elsa_Albedo_0
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 642
+        width: 84
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 406345f48526e0e70800000000000000
+      internalID: 9083305629880432132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elsa_Albedo_1
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 642
+        width: 85
+        height: 155
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a28b30c46b8c4ad90800000000000000
+      internalID: -7087319228289402838
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elsa_Albedo_2
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 642
+        width: 87
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f1a932691de6bc40800000000000000
+      internalID: 5527866285921772020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elsa_Albedo_3
+      rect:
+        serializedVersion: 2
+        x: 387
+        y: 642
+        width: 85
+        height: 153
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66ca5e761aeb850b0800000000000000
+      internalID: -5739628124641579930
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elsa_Albedo_4
+      rect:
+        serializedVersion: 2
+        x: 520
+        y: 643
+        width: 83
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cde09a7eef2e6a180800000000000000
+      internalID: -9104340012246692132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elsa_Albedo_5
+      rect:
+        serializedVersion: 2
+        x: 638
+        y: 642
+        width: 92
+        height: 131
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c30fd3ff845352bc0800000000000000
+      internalID: -3808579322235719620
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elsa_Albedo_6
+      rect:
+        serializedVersion: 2
+        x: 760
+        y: 642
+        width: 93
+        height: 131
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76e178b6519be47f0800000000000000
+      internalID: -626359796508451225
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elsa_Albedo_7
+      rect:
+        serializedVersion: 2
+        x: 881
+        y: 642
+        width: 152
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a4a0b08a7383cbd0800000000000000
+      internalID: -2611098796776446816
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elsa_Albedo_8
+      rect:
+        serializedVersion: 2
+        x: 1074
+        y: 642
+        width: 151
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15b7a902c262433c0800000000000000
+      internalID: -4380834566557238447
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elsa_Albedo_9
+      rect:
+        serializedVersion: 2
+        x: 1272
+        y: 642
+        width: 150
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74eb52ef6602b2410800000000000000
+      internalID: 1453290931479756359
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elsa_Albedo_10
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 464
+        width: 139
+        height: 142
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c963e9472fadf5b50800000000000000
+      internalID: 6584221915112421020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elsa_Albedo_11
+      rect:
+        serializedVersion: 2
+        x: 221
+        y: 464
+        width: 139
+        height: 142
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 237d8312c6883c940800000000000000
+      internalID: 5315241983222535986
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elsa_Albedo_12
+      rect:
+        serializedVersion: 2
+        x: 385
+        y: 464
+        width: 138
+        height: 144
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6bb8ca058471d0d80800000000000000
+      internalID: -8282938540305904714
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elsa_Albedo_13
+      rect:
+        serializedVersion: 2
+        x: 551
+        y: 464
+        width: 140
+        height: 142
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1bdf8370ca10aad80800000000000000
+      internalID: -8238770729953722959
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elsa_Albedo_14
+      rect:
+        serializedVersion: 2
+        x: 709
+        y: 464
+        width: 139
+        height: 142
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e9ad15f53bad7490800000000000000
+      internalID: -7746847535773406744
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elsa_Albedo_15
+      rect:
+        serializedVersion: 2
+        x: 869
+        y: 464
+        width: 139
+        height: 144
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad520de4230e40250800000000000000
+      internalID: 5910095117692184026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elsa_Albedo_16
+      rect:
+        serializedVersion: 2
+        x: 1037
+        y: 464
+        width: 98
+        height: 143
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 692f265c9f551c360800000000000000
+      internalID: 7188121011506836118
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elsa_Albedo_17
+      rect:
+        serializedVersion: 2
+        x: 1174
+        y: 464
+        width: 92
+        height: 141
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a818d59065d9b65d0800000000000000
+      internalID: -3068185728272989814
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elsa_Albedo_18
+      rect:
+        serializedVersion: 2
+        x: 1319
+        y: 464
+        width: 92
+        height: 143
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a16eb3760815be290800000000000000
+      internalID: -7860099112715426278
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elsa_Albedo_19
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 224
+        width: 88
+        height: 139
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2b9eeba9363fbe90800000000000000
+      internalID: -7007822873839625428
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elsa_Albedo_20
+      rect:
+        serializedVersion: 2
+        x: 173
+        y: 267
+        width: 114
+        height: 167
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39a969792e8df5b80800000000000000
+      internalID: -8403759911932618093
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elsa_Albedo_21
+      rect:
+        serializedVersion: 2
+        x: 311
+        y: 303
+        width: 119
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 553d142f7990438c0800000000000000
+      internalID: -4020578019125898411
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elsa_Albedo_22
+      rect:
+        serializedVersion: 2
+        x: 451
+        y: 339
+        width: 130
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb7357c93e4e99970800000000000000
+      internalID: 8762286216259647420
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elsa_Albedo_23
+      rect:
+        serializedVersion: 2
+        x: 601
+        y: 295
+        width: 94
+        height: 129
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f01b97ad9cdb70330800000000000000
+      internalID: 3677116295422783759
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elsa_Albedo_24
+      rect:
+        serializedVersion: 2
+        x: 723
+        y: 329
+        width: 130
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ce7404328c210630800000000000000
+      internalID: 3891440490754899654
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elsa_Albedo_25
+      rect:
+        serializedVersion: 2
+        x: 873
+        y: 303
+        width: 118
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa4419192d53f08e0800000000000000
+      internalID: -1725100953757989713
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elsa_Albedo_26
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 293
+        width: 130
+        height: 138
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe57cbd0970e15ff0800000000000000
+      internalID: -49011310398245393
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elsa_Albedo_27
+      rect:
+        serializedVersion: 2
+        x: 1123
+        y: 224
+        width: 120
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f0469de3ae1cda90800000000000000
+      internalID: -7287916407577755408
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elsa_Albedo_28
+      rect:
+        serializedVersion: 2
+        x: 1299
+        y: 253
+        width: 101
+        height: 149
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 013a7046a6cf49d40800000000000000
+      internalID: 5590370571348583184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elsa_Albedo_29
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 26
+        width: 84
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0f572a9db047ff40800000000000000
+      internalID: 5762145431323107087
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elsa_Albedo_30
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 26
+        width: 122
+        height: 157
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e64ded206c9d80160800000000000000
+      internalID: 6992077865967604846
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elsa_Albedo_31
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 29
+        width: 122
+        height: 153
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3683d77dcd3c0cf0800000000000000
+      internalID: -284784723743242692
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elsa_Albedo_32
+      rect:
+        serializedVersion: 2
+        x: 415
+        y: 26
+        width: 123
+        height: 157
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80f213322804cf6f0800000000000000
+      internalID: -649573318567842040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elsa_Albedo_33
+      rect:
+        serializedVersion: 2
+        x: 560
+        y: 26
+        width: 92
+        height: 129
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d73d1cc8cad118e0800000000000000
+      internalID: -1724356626353408046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elsa_Albedo_34
+      rect:
+        serializedVersion: 2
+        x: 661
+        y: 35
+        width: 122
+        height: 155
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dce6abf2535f3b1c0800000000000000
+      internalID: -4488974794775433523
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elsa_Albedo_35
+      rect:
+        serializedVersion: 2
+        x: 819
+        y: 34
+        width: 130
+        height: 151
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cbd8de4c76b785420800000000000000
+      internalID: 2618978868931694012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elsa_Albedo_36
+      rect:
+        serializedVersion: 2
+        x: 973
+        y: 34
+        width: 129
+        height: 129
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3930761e336378d50800000000000000
+      internalID: 6739414963836093331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elsa_Albedo_37
+      rect:
+        serializedVersion: 2
+        x: 1125
+        y: 34
+        width: 151
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b3289c4f003578d0800000000000000
+      internalID: -2849318346974288967
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elsa_Albedo_38
+      rect:
+        serializedVersion: 2
+        x: 1306
+        y: 26
+        width: 157
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7606d3c98bfe6b390800000000000000
+      internalID: -7802785728198516633
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

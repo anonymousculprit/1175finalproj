@@ -16,17 +16,21 @@ public class Door : MonoBehaviour, IInit
     EdgeCollider2D doorCol;
     SpriteRenderer spr;
     Follower follower;
+    Animator anim;
 
     void Start()
     {
         GrabComponents();
     }
 
+    public void DisableDoor() => gameObject.SetActive(false);
+
     public void GrabComponents()
     {
         sensorCol = GetComponent<CapsuleCollider2D>();
         doorCol = GetComponent<EdgeCollider2D>();
         spr = GetComponent<SpriteRenderer>();
+        anim = GetComponent<Animator>();
     }
 
     public void Update()
@@ -49,9 +53,7 @@ public class Door : MonoBehaviour, IInit
 
         follower.ResetTarget();
         opening = true;
-        spr.color = new Color(0.1f,0.1f,0.1f,0.1f);
-        // open door
-        // when finished
+        anim.SetTrigger("open");
         Blackboard.RemoveKey(keyType);
         sensorCol.enabled = false;
         doorCol.enabled = false;

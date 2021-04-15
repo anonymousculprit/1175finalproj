@@ -7,6 +7,7 @@ public class Bullet : MonoBehaviour
 {
     public int dmg = 1;
     public float radius, minDist;
+    public TrailRenderer trail;
 
     float cTime = 0f;
 
@@ -16,6 +17,7 @@ public class Bullet : MonoBehaviour
 
     void OnEnable() => SetupBullet();
     void Update() => MoveTowardsTarget();
+    void OnDisable() => trail.enabled = false;
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
@@ -62,6 +64,7 @@ public class Bullet : MonoBehaviour
             endPos = target.transform.position;
         }
 
+        trail.enabled = true;
         Vector2 Dir = endPos - transform.position;
         Vector2 ForceDir = Dir.normalized - rb.velocity.normalized;
 
@@ -74,7 +77,7 @@ public class Bullet : MonoBehaviour
     void SetupBullet()
     {
         rb = GetComponent<Rigidbody2D>();
-
+        
         target = null;
 
         System.Random random = new System.Random();
@@ -89,7 +92,6 @@ public class Bullet : MonoBehaviour
         {
             DirX = radius * PlayerController.Flip;
             endPos = new Vector3(transform.position.x + DirX, transform.position.y, transform.position.z);
-            Debug.Log(endPos);
         }
 
         // Aim towards our target
