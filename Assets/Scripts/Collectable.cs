@@ -20,6 +20,10 @@ public class Collectable : MonoBehaviour, IInit
     public bool isDrawnToPlayer = false;
     public float range, drawForce;
 
+    [Header("Unique Item")]
+    public bool unique = false;
+    public Animator anim;
+
     PickUp pickup;
     ApplyForce applyForce;
     DrawnToPlayer dToPlayer;
@@ -85,6 +89,9 @@ public class Collectable : MonoBehaviour, IInit
                 default: break;
             }
         }
+
+        if (unique)
+            anim.SetTrigger("itemget");
 
         gameObject.SetActive(false);
     }

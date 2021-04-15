@@ -6,6 +6,9 @@ using UnityEngine;
 [RequireComponent(typeof(Animator))]
 public class JumpingEnemy : EnemyBehaviour, IDamagable
 {
+    [Header("Ref")]
+    public GameObject sprite;
+
     [Header("Stats")]
     public int hp;
     public int dmg;
@@ -26,7 +29,7 @@ public class JumpingEnemy : EnemyBehaviour, IDamagable
 
     GroundState gState = GroundState.NULL;
 
-    int isMoving, isJumping;
+    int isMoving, isJumping, flipState;
     bool alive = true;
 
     // components
@@ -40,6 +43,8 @@ public class JumpingEnemy : EnemyBehaviour, IDamagable
     Jump jump;
     GroundCheck gc;
     DamageOnCollision dmgOnCol;
+    FlipSprite flip;
+    Animation animate;
     /* - Animator
      * - WallJump
      * - Following Object
@@ -60,6 +65,8 @@ public class JumpingEnemy : EnemyBehaviour, IDamagable
         if (move != null) move.RunUpdate(ref force, isMoving, 1, maxSpeed);
         if (jump != null) jump.RunUpdate(ref force, isJumping, gState);
         if (gc != null) gc.RunUpdate(ref gState, transform.position);
+        if (flip != null) flip.RunUpdate(isMoving, ref flipState);
+        if (animate != null) animate.RunUpdate_Player(gState, isMoving);
     }
 
     private void FixedUpdate()
@@ -75,19 +82,28 @@ public class JumpingEnemy : EnemyBehaviour, IDamagable
     {
         rb = GetComponent<Rigidbody2D>();
         col = GetComponent<CapsuleCollider2D>();
-        spr = GetComponent<SpriteRenderer>();
-        anim = GetComponent<Animator>();
+        spr = sprite.GetComponent<SpriteRenderer>();
+        anim = sprite.GetComponent<Animator>();
     }
 
     void InitBehaviours() // see if we can genericize this in the future
     {
+        animate = new Animation();
+        animate.OnInit(anim);
+
         foreach (EnemyMovement b in behaviours)
             switch (b)
             {
-                case EnemyMovement.MOVE: move = new Move(); move.OnInit(maxSpeed, accel, rb); break;
+                case EnemyMovement.MOVE:
+                    move = new Move(); move.OnInit(maxSpeed, accel, rb);
+                    flip = new FlipSprite(); flip.OnInit(spr);
+                    animate.HasMove();
+                    break;
                 case EnemyMovement.JUMP:
                     gc = new GroundCheck(); gc.OnInit(CalculateFeet());
-                    jump = new Jump(); jump.OnInit(maxJump, jumpBoost, rb, true); break;
+                    jump = new Jump(); jump.OnInit(maxJump, jumpBoost, rb, _enemy: true);
+                    animate.HasJump();
+                    break;
                 default: break;
             }
 
@@ -122,7 +138,7 @@ public class JumpingEnemy : EnemyBehaviour, IDamagable
             case EnemyMovement.MOVEJUMP: isMoving = LeftOrRight(); isJumping = 1; break;
             case EnemyMovement.JUMP: isJumping = 1; break;
             case EnemyMovement.MOVE: isMoving = LeftOrRight(); break;
-            case EnemyMovement.NULL:
+            case EnemyMovement.NULL: 
             default: break;
         }
         return Random.Range(minTime, maxTime);
@@ -143,8 +159,14 @@ public class JumpingEnemy : EnemyBehaviour, IDamagable
     public void CheckForDeath()
     {
         if (hp > 0)
+        {
+            if (anim != null)
+                anim.SetTrigger("hit");
             return;
-
+        }
+            
+        if (anim != null)
+            anim.SetTrigger("death");
         StopAllCoroutines();
         Death();
     }
@@ -152,7 +174,9 @@ public class JumpingEnemy : EnemyBehaviour, IDamagable
     public void Death()
     {
         SpawnCollectables();
-        gameObject.SetActive(false);
+        rb.constraints = RigidbodyConstraints2D.FreezeAll;
+        col.enabled = false;
+        enabled = false;
     }
 
     void SpawnCollectables()
@@ -175,6 +199,8 @@ public class JumpingEnemy : EnemyBehaviour, IDamagable
         pos += new Vector3(Random.Range(-rX, rX), Random.Range(0, rY), 0);
         return pos;
     }
+
+    public void TurnOffObj() => gameObject.SetActive(false);
 
     //private void OnDrawGizmos()
     //{

@@ -10,7 +10,7 @@ public class Jump
     bool isEnemy, newTap;
     bool wallJump;
 
-    public void OnInit(float _maxJump, float _jumpBoost, Rigidbody2D _rb, bool _enemy = true, int _maxCount = 0, bool _wallJump = false)
+    public void OnInit(float _maxJump, float _jumpBoost, Rigidbody2D _rb, bool _enemy = false, int _maxCount = 1, bool _wallJump = false)
     {
         rb = _rb;
         maxJump = _maxJump;

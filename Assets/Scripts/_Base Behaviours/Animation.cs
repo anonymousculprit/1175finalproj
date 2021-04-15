@@ -14,6 +14,9 @@ public class Animation
         jump = _jump;
     }
 
+    public void HasJump() => jump = true;
+    public void HasMove() => move = true;
+
     public void RunUpdate_Player(GroundState state, float hInput)
     {
         switch (state)

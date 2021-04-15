@@ -8,7 +8,8 @@ public class Door : MonoBehaviour, IInit
     [Header("Door")]
     public KeyTypes keyType;
     public float range;
-    
+    public Animator keyLoss;
+
     bool opening = false;
     bool hasKey = false;
 
@@ -55,6 +56,7 @@ public class Door : MonoBehaviour, IInit
         opening = true;
         anim.SetTrigger("open");
         Blackboard.RemoveKey(keyType);
+        keyLoss.SetTrigger("itemloss");
         sensorCol.enabled = false;
         doorCol.enabled = false;
     }
